@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav> 
+            <div class="dropdown">
+                <button class="dropbtn"><h1>Menu</h1></button>
+                <div class="dropdown-content">
+                    <a href="index.html">Home</a>
+                    <a href="projects.html">Projects</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="contact.html" class="active">Contact</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="section" id="contact">
+        <h1>Contact Me</h1>
+        <p>Feel free to reach out via email or follow me on social media:</p>
+        <ul class="social-links">
+            <li>
+                <a href="mailto:aneja0512@email.com">
+                    <img src="images/email_logo.png" alt="Email Logo" style="width: 24px; height: 24px;">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/sahilpreetaneja/?hl=es" target="_blank">
+                    <img src="images/instagram_logo.png" alt="Instagram Logo" style="width: 24px; height: 24px;">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/sahilpreet-aneja-89b68a157/" target="_blank">
+                    <img src="images/linkedin_logo.png" alt="LinkedIn Logo" style="width: 24px; height: 24px;">
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/aneja5/aneja5.github.io.git" target="_blank">
+                    <img src="images/github.png" alt="GitHub Logo" style="width: 24px; height: 24px;">
+                </a>
+            </li>
+        </ul>
+
+        <h2>Contact Form</h2>
+        <form action="#" method="post" class="contact-form">
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq">
+            <h3>What is the best way to contact you?</h3>
+            <p>The best way to contact me is via email. I check my emails frequently and will get back to you as soon as possible.</p>
+            
+            <h3>Do you offer freelance services?</h3>
+            <p>Yes, I do offer freelance services for projects related to software development and robotics. Please reach out for inquiries.</p>
+
+            <h3>Can I connect with you on social media?</h3>
+            <p>Absolutely! You can follow me on Instagram and LinkedIn for updates on my projects and travels.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Sahilpreet Aneja. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+
