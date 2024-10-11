@@ -20,18 +20,9 @@ header {
     z-index: 1000;
 }
 
-.navbar-title {
-    font-size: 28px;
-    font-weight: bold;
-    color: white;
-    padding: 10px 20px;
-    margin-right: auto;
-}
-
 nav {
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 nav h1 {
